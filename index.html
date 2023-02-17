@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lato:wght@100;300;400;700;900&display=swap');
+	html, body{
+		padding: 0;
+		margin: 0;
+		font-family: 'Lato', sans-serif;
+	}
+	.hero{
+		text-align: center;
+		top:-50px
+	}
+	.logo{
+		text-align: center;
+		position: absolute;
+		width: 100%;
+		z-index: 2;
+		top:0px;
+		margin-top: 4%;
+	}
+	.prox{
+		text-align: center;
+		padding: 80px 0;
+		color: #41526D;
+		font-size: 40px;
+		letter-spacing: 5px;
+		font-weight: 500;
+	}
+	.info{
+		text-align: center;
+		color: #41526D;
+		font-size: 28px;
+		font-weight: 500;
+	}
+	.mail{
+		font-size: 22px;
+		text-align: center;
+	}
+	.container{
+		max-width:1280px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.plantas{
+		text-align: right;
+	}
+	.plantas img{
+		padding: 10px 0;
+	}
+	.renders img{
+		padding: 10px 0;
+	}
+	.mt-100{
+		margin-top: 100px;
+	}
+	.d-flex{
+		display:flex;
+	}
+	.left{
+		width: 53%;
+	}
+	.right{
+		width: 47%;
+	}
+	.pl-20{
+		padding-left: 20px;
+	}
+	img{
+		max-width: 100%
+	}
+	@media screen and (max-width: 640px) {
+	  .prox{
+		padding: 50px 0;
+		font-size: 20px;
+		letter-spacing: 2px;
+		}
+		.info{
+			font-size: 16px;
+		}
+		.mail{
+			font-size: 14px;
+		}
+		.plantas img{
+			padding:5px 0;
+		}
+		.renders img{
+			padding: 5px 0;
+		}
+	}
+
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="hero">
+		<img src="render.jpg" width="100%">
+		<div class="logo">
+			<img src="cairo.jpg" width="20%">
+		</div>
+	</div>
+	<div class="prox">PRÓXIMAMENTE...</div>
+	<div class="info"><strong>Edificio de departamentos</strong><br>Herrera y Cairo 1565 Santa Teresita</div>
+	<br><br>
+	<div class="info"><strong>Informes:</strong><br>33 3460 9858</div>
+	<div class="mail"><a href="mailto:info@cairo.mx">info@cairo.mx</a></div>
+		<hr class="mt-100">
+
+	<div class="info mt-100"><strong>Plantas</div>
+	<div class="container mt-100">
+		<div class="plantas">
+			<img src="1.jpg" width="100%">
+			<img src="2.jpg" width="100%">
+			<img src="3.jpg" width="40%">
+		</div>
+	</div>
+	<div class="info mt-100"><strong>Renders</div>
+	<br>
+	<div class="container mt-100">
+		<div class="renders">
+			<div><img src="r4.jpg" ></div>
+			<div class="d-flex">
+				<div class="left">
+					<img src="render.jpg">
+				</div>
+				<div class="right pl-20">
+					<img src="r1.jpg" >
+					<img src="r3.jpg" >
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="prox">PRÓXIMAMENTE...</div>
+	<div class="info"><strong>Edificio de departamentos</strong><br>Herrera y Cairo 1565 Santa Teresita</div>
+	<br><br>
+	<div class="info"><strong>Informes:</strong><br>33 3460 9858</div>
+	<div class="mail"><a href="mailto:info@cairo.mx">info@cairo.mx</a></div>
+	<div class="footer mt-100"></div>
+</div>
+</body>
+
+</html>
